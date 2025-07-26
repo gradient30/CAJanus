@@ -1,0 +1,104 @@
+{
+  "timestamp": "2025-07-27T00:04:09.039726",
+  "timestamp_readable": "2025-07-27 00:04:09",
+  "backup_type": "完整备份",
+  "system_info": {
+    "os_name": "Windows",
+    "os_version": "10",
+    "architecture": "AMD64",
+    "python_version": "3.12.0"
+  },
+  "registry_data": {},
+  "network_config": {
+    "adapters": [
+      {
+        "name": "",
+        "mac_address": "WAN Miniport (IP)",
+        "adapter_type": "other",
+        "status": "disabled"
+      },
+      {
+        "name": "",
+        "mac_address": "RAS Async Adapter",
+        "adapter_type": "other",
+        "status": "disabled"
+      }
+    ]
+  },
+  "hardware_info": {
+    "machine_guid": "3f51c5a3-d59a-4872-b2a6-63082f7813f2",
+    "volume_serials": {
+      "C:": "802F7BDC",
+      "D:": "4625D762",
+      "E:": "8E38FF1A",
+      "F:": "8E4862FB"
+    },
+    "hardware_details": {
+      "hardware": {
+        "motherboard": {
+          "Manufacturer": "KBL",
+          "Product": "Sienna_KLS",
+          "SerialNumber": "NHQ29CN0017420A5F63400",
+          "Version": "V1.10"
+        },
+        "processor": {
+          "Manufacturer": "GenuineIntel",
+          "MaxClockSpeed": "2808",
+          "Name": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+          "NumberOfCores": "4",
+          "ProcessorId": "BFEBFBFF000906E9"
+        },
+        "memory": [
+          {
+            "Capacity": "8589934592",
+            "Manufacturer": "Kingston",
+            "PartNumber": "ACR26D4S9S8MH-8",
+            "Speed": "2667"
+          },
+          {
+            "Capacity": "8589934592",
+            "Manufacturer": "Kingston",
+            "PartNumber": "99P5663-013.A00G",
+            "Speed": "2667"
+          }
+        ],
+        "disks": [
+          {
+            "InterfaceType": "SCSI",
+            "Model": "Samsung SSD 970 EVO Plus 1TB",
+            "SerialNumber": "0025_3854_21B1_0CEE.",
+            "Size": "1000202273280"
+          }
+        ]
+      },
+      "system": {
+        "computer_system": {
+          "Manufacturer": "Acer",
+          "Model": "Predator PH317-51",
+          "Name": "DESKTOP-40TUC96",
+          "NumberOfProcessors": "1",
+          "TotalPhysicalMemory": "17057816576"
+        },
+        "operating_system": {
+          "BuildNumber": "19045",
+          "Caption": "Microsoft Windows 10 专业版",
+          "InstallDate": "20220524193313.000000+480",
+          "OSArchitecture": "64-bit",
+          "Version": "10.0.19045"
+        },
+        "bios": {
+          "Manufacturer": "Insyde Corp.",
+          "ReleaseDate": "20170822000000.000000+000",
+          "SMBIOSBIOSVersion": "V1.10"
+        }
+      },
+      "machine_guid": "3f51c5a3-d59a-4872-b2a6-63082f7813f2",
+      "volume_serials": {
+        "C:": "802F7BDC",
+        "D:": "4625D762",
+        "E:": "8E38FF1A",
+        "F:": "8E4862FB"
+      }
+    }
+  }
+}

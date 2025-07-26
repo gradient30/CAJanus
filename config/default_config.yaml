@@ -1,0 +1,125 @@
+# 设备指纹识别与修改工具 - 默认配置文件
+
+# 应用程序基本设置
+app:
+  name: "设备指纹识别与修改工具"
+  version: "1.0.0-alpha"
+  debug: false
+  log_level: "INFO"
+
+# 用户界面设置
+ui:
+  theme: "default"
+  language: "zh_CN"
+  window_size:
+    width: 1200
+    height: 800
+  show_warnings: true
+  show_tooltips: true
+  auto_refresh: true
+  refresh_interval: 5  # 秒
+
+# 安全设置
+security:
+  require_confirmation: true
+  backup_before_modify: true
+  max_backup_count: 10
+  auto_backup_interval: 24  # 小时
+  enable_audit_log: true
+  log_retention_days: 30
+  
+  # 风险等级设置
+  risk_levels:
+    mac_modification: "medium"
+    volume_serial_modification: "high"
+    machine_guid_modification: "high"
+    file_deletion: "medium"
+
+# 教育功能设置
+education:
+  show_principles: true
+  detailed_logs: true
+  learning_mode: false
+  show_operation_guide: true
+  enable_tooltips: true
+  auto_show_help: true
+
+# 备份设置
+backup:
+  backup_directory: "./backups"
+  compression_enabled: true
+  encryption_enabled: false
+  max_backup_size: 1073741824  # 1GB
+  cleanup_old_backups: true
+  backup_retention_days: 30
+
+# 日志设置
+logging:
+  log_directory: "./logs"
+  max_log_size: 10485760  # 10MB
+  max_log_files: 5
+  log_format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+  # 日志级别
+  loggers:
+    root: "INFO"
+    core: "DEBUG"
+    ui: "INFO"
+    security: "DEBUG"
+
+# 平台特定设置
+platform:
+  windows:
+    require_admin: true
+    registry_backup: true
+    service_management: false
+  
+  macos:
+    require_sudo: true
+    sip_check: true
+    keychain_access: false
+
+# 网络设置
+network:
+  timeout: 30
+  retry_count: 3
+  proxy_enabled: false
+  proxy_settings:
+    host: ""
+    port: 0
+    username: ""
+    password: ""
+
+# 文件操作设置
+file_operations:
+  scan_hidden_files: false
+  scan_system_files: false
+  max_scan_depth: 5
+  excluded_extensions:
+    - ".tmp"
+    - ".log"
+    - ".cache"
+  
+  # 常见应用数据目录
+  common_app_dirs:
+    windows:
+      - "%APPDATA%"
+      - "%LOCALAPPDATA%"
+      - "%PROGRAMDATA%"
+    macos:
+      - "~/Library/Application Support"
+      - "~/Library/Preferences"
+      - "~/Library/Caches"
+
+# 更新设置
+update:
+  check_for_updates: true
+  auto_update: false
+  update_channel: "stable"  # stable, beta, alpha
+  update_server: ""
+
+# 实验性功能
+experimental:
+  enable_advanced_features: false
+  enable_beta_features: false
+  debug_mode: false

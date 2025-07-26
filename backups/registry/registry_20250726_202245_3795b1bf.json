@@ -1,0 +1,62 @@
+{
+  "backup_id": "registry_20250726_202245_3795b1bf",
+  "timestamp": "2025-07-26T20:22:45.661384",
+  "registry_path": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion",
+  "values": [
+    {
+      "name": "ProgramFilesDir",
+      "data": "C:\\Program Files",
+      "type": 1
+    },
+    {
+      "name": "CommonFilesDir",
+      "data": "C:\\Program Files\\Common Files",
+      "type": 1
+    },
+    {
+      "name": "ProgramFilesDir (x86)",
+      "data": "C:\\Program Files (x86)",
+      "type": 1
+    },
+    {
+      "name": "CommonFilesDir (x86)",
+      "data": "C:\\Program Files (x86)\\Common Files",
+      "type": 1
+    },
+    {
+      "name": "CommonW6432Dir",
+      "data": "C:\\Program Files\\Common Files",
+      "type": 1
+    },
+    {
+      "name": "DevicePath",
+      "data": "%SystemRoot%\\inf;",
+      "type": 2
+    },
+    {
+      "name": "MediaPathUnexpanded",
+      "data": "%SystemRoot%\\Media",
+      "type": 2
+    },
+    {
+      "name": "ProgramFilesPath",
+      "data": "%ProgramFiles%",
+      "type": 2
+    },
+    {
+      "name": "ProgramW6432Dir",
+      "data": "C:\\Program Files",
+      "type": 1
+    },
+    {
+      "name": "SM_ConfigureProgramsName",
+      "data": "Set Program Access and Defaults",
+      "type": 1
+    },
+    {
+      "name": "SM_GamesName",
+      "data": "Games",
+      "type": 1
+    }
+  ]
+}

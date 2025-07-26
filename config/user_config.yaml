@@ -1,0 +1,95 @@
+app:
+  debug: false
+  log_level: INFO
+  name: 设备指纹识别与修改工具
+  version: 1.0.0-alpha
+backup:
+  backup_directory: ./backups
+  backup_retention_days: 30
+  cleanup_old_backups: true
+  compression_enabled: true
+  encryption_enabled: false
+  max_backup_size: 1073741824
+education:
+  auto_show_help: true
+  detailed_logs: true
+  enable_tooltips: true
+  learning_mode: false
+  show_operation_guide: true
+  show_principles: true
+experimental:
+  debug_mode: false
+  enable_advanced_features: false
+  enable_beta_features: false
+file_operations:
+  common_app_dirs:
+    macos:
+    - ~/Library/Application Support
+    - ~/Library/Preferences
+    - ~/Library/Caches
+    windows:
+    - '%APPDATA%'
+    - '%LOCALAPPDATA%'
+    - '%PROGRAMDATA%'
+  excluded_extensions:
+  - .tmp
+  - .log
+  - .cache
+  max_scan_depth: 5
+  scan_hidden_files: false
+  scan_system_files: false
+logging:
+  log_directory: ./logs
+  log_format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  loggers:
+    core: DEBUG
+    root: INFO
+    security: DEBUG
+    ui: INFO
+  max_log_files: 5
+  max_log_size: 10485760
+network:
+  proxy_enabled: false
+  proxy_settings:
+    host: ''
+    password: ''
+    port: 0
+    username: ''
+  retry_count: 3
+  timeout: 30
+platform:
+  macos:
+    keychain_access: false
+    require_sudo: true
+    sip_check: true
+  windows:
+    registry_backup: true
+    require_admin: true
+    service_management: false
+security:
+  auto_backup_interval: 24
+  backup_before_modify: true
+  enable_audit_log: true
+  log_retention_days: 30
+  max_backup_count: 10
+  require_confirmation: true
+  risk_levels:
+    file_deletion: medium
+    mac_modification: medium
+    machine_guid_modification: high
+    volume_serial_modification: high
+ui:
+  auto_refresh: true
+  language: zh_CN
+  refresh_interval: 5
+  show_tooltips: true
+  show_warnings: true
+  theme: default
+  window_size:
+    height: 800
+    width: 1200
+update:
+  auto_update: false
+  check_for_updates: true
+  update_channel: stable
+  update_server: ''
