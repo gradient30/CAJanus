@@ -1,0 +1,54 @@
+# CAJanus - 设备指纹识别与修改工具
+# 运行时依赖包
+
+# GUI框架
+PyQt5>=5.15.11
+PyQt5-Qt5>=5.15.2
+PyQt5-sip>=12.13.0
+
+# 系统监控和信息获取
+psutil>=7.0.0
+
+# 配置文件处理
+PyYAML>=6.0
+
+# 网络和系统操作
+requests>=2.31.0
+
+# 数据处理
+packaging>=23.0
+
+# 加密支持
+cryptography>=41.0.0
+
+# 日期时间处理
+python-dateutil>=2.8.2
+
+# JSON处理增强
+jsonschema>=4.17.0
+
+# 文件操作
+pathlib2>=2.3.7; python_version < "3.4"
+
+# 跨平台路径处理
+pathspec>=0.11.0
+
+# Windows平台特定依赖
+pywin32>=306; sys_platform == "win32"
+wmi>=1.5.1; sys_platform == "win32"
+
+# macOS平台特定依赖
+pyobjc-core>=9.0; sys_platform == "darwin"
+pyobjc-framework-Cocoa>=9.0; sys_platform == "darwin"
+
+# Linux平台特定依赖
+python-dbus>=1.2.18; sys_platform == "linux"
+
+# 可选依赖 - 性能监控
+memory-profiler>=0.61.0
+
+# 可选依赖 - 更好的错误追踪
+rich>=13.0.0
+
+# 可选依赖 - 进度条
+tqdm>=4.65.0
